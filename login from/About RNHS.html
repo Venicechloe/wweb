@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNHS Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, rgba(255,0,150,0.7), rgba(0,204,255,0.7));
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #hero {
+            background: url('/pagcor building.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 150px 20px;
+        }
+
+        #hero h1 {
+            font-size: 3em;
+        }
+
+        .contact-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .contact-section h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .contact-section p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            color: #555;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a img {
+            width: 40px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RNHS</div>
+             <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vision and mission.html">Vision & mission</a></li>
+            <li><a href="Strand.html">Strand</a></li>
+            <li><a href="Facilities.html">Facilities</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="About RNHS.html">About RNHS</a></li>
+            <li><a href="History.html">History</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>About RNHS</h1>
+    </section>
+
+    <section class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to reach out? Fill out the form below or connect with us through our social media channels.</p>
+
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> Don Antonio Village</p>
+            <p><strong>Phone:</strong> 09672673289</p>
+            <p><strong>Email:</strong> rosalesnhsshs@gmail.com</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><img src="/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/instagram.png" alt="Instagram"></a>
+        </div>
+    </section>
+</body>
+</html>
